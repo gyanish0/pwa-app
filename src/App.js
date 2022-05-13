@@ -1,12 +1,11 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-
+import Home from "./components/home/index";
 function App() {
   return (
-    <div className="App">
-      <h2>Hello Pwa</h2>
-      <h2>Hello Pwa</h2>
-      <h2>Hello Pwa</h2>
-    </div>
+    <BrowserRouter>
+      <Home />
+    </BrowserRouter>
   );
 }
 
